@@ -1,0 +1,47 @@
+
+.tab-main-content{
+    border: 1px solid #00000033;
+    padding: 4rem 3rem ;
+}
+
+.my-orders-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8e5da;
+    margin: 2.5rem ;
+    padding: 15px 30px;
+}
+
+.nav-link{
+    color: black;
+    
+}
+.nav-pills .nav-link.active{
+    background: none;
+   color: #B28165;
+    border-radius: 0;
+}
+p{
+    margin-bottom: 0;
+}
+.return-products-btn:hover{
+background-color: #B28165;
+color: #f8e5da;
+}
+.input-box{
+    border: 2px solid #b28165f2 ;
+    padding: 10px;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+.account-btn{
+    border: none;
+    background-color: #f7ded0;
+    padding: 0.8rem 1.5rem;
+    width: 75%;
+    margin-bottom: 1rem;
+}
+.account-btn:hover{
+    background-color: #B28165;
+}

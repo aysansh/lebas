@@ -1,0 +1,1217 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.0-alpha3-dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/swiper.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- navigation-->
+    <nav>
+      <div
+        class="row justify-content-between p-3"
+        style="margin: 0; background-color: black">
+        <div class="col-lg-9 d-flex">
+          <div
+            class="d-none d-lg-flex justify-content-between align-items-center w-75 me-5"
+          >
+            <a href="" class="nav-home"> مردانه </a>
+            <a href="" class="nav-home"> زنانه </a>
+            <a href="" class="nav-home"> بچگانه </a>
+            <a href="" class="nav-home"> کیف و کفش </a>
+            <a href="" class="nav-home"> آرایشی بهداشتی </a>
+            <a href="" class="nav-home"> اکسسوری </a>
+          </div>
+        </div>
+        <div
+          class="col-lg-3 align-items-center justify-content-center d-none d-lg-flex"
+        >
+          <a
+            style="
+              background-color: #b28165;
+              padding: 11px;
+              margin-left: 0.5rem;
+            "
+            href=""
+          >
+            <i class="bi bi-cart3 icon text-white"> </i>
+          </a>
+          <a href="">
+            <div
+              style="
+                border: 2px solid #b28165;
+                padding: 7px 20px;
+                font-size: 12px;
+              "
+              class="button"
+            >
+              ورود/ثبت نام
+            </div>
+          </a>
+        </div>
+
+        <!-- off convas -->
+        <div class="d-lg-none d-block fs-5">
+          <i
+            class="bi bi-list fs-1 text-white mt-4"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+          >
+          </i>
+
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight"
+            aria-labelledby="offcanvasRightLabel"
+            style="background: #ffffff"
+          >
+            <div class="offcanvas-header mt-5">
+              <h5 id="offcanvasRightLabel">
+                <a
+                  class="text-black p-1"
+                  style="border: 2px solid #b28165; font-size: 16px"
+                  href=""
+                >
+                  ورود/ثبت نام
+                </a>
+              </h5>
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body" style="line-height: 4rem">
+              <ul style="list-style: none">
+                <li>
+                  <div>
+                    <img
+                      style="color: #000"
+                      src="./image/header/offcanvas/icons8-man-18.png"
+                      alt=""
+                    />
+                    <a class="offcanvas-links" href="#section1"> مردانه </a>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      style="color: #000"
+                      src="./image/header/offcanvas/icons8-woman-18.png"
+                      alt=""
+                    />
+                    <a class="offcanvas-links" href="#section2"> زنانه </a>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      style="color: #000"
+                      src="./image/header/offcanvas/icons8-babys-room-18.png"
+                      alt=""
+                    />
+                    <a class="offcanvas-links" href="#section3"> بچگانه </a>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      style="color: #000"
+                      src="./image/header/offcanvas/icons8-shoes-18.png"
+                      alt=""
+                    />
+                    <a class="offcanvas-links" href="#section4"> کیف و کفش </a>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      style="color: #000"
+                      src="./image/header/offcanvas/icons8-face-powder-18.png"
+                      alt=""
+                    />
+                    <a class="offcanvas-links" href="#section5">
+                      آرایشی بهداشتی
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      style="color: #000"
+                      src="./image/header/offcanvas/icons8-sun-glasses-18.png"
+                      alt=""
+                    />
+                    <a class="offcanvas-links" href="#section5"> اکسسوری </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header class="main offcanvas-menu headpic">
+      <!-- header -->
+      <div style="background-color: #b28165; padding: 2rem 0">
+        <!-- right part  -->
+        <div class="d-flex flex-row container">
+          <div class="col-lg-6 col-sm-12 d-flex justify-content-center">
+            <div
+              class="d-flex flex-column align-items-center head-box"
+              style="width: 52%; margin-top: 4rem"
+            >
+              <div class="mb-3">
+                <img class="w-100" src="./image/header/Frame.png" alt="" />
+              </div>
+              <div class="">
+                <h1
+                  style="
+                    color: #ffffff;
+                    padding-bottom: 1rem;
+                    font-size: 23px;
+                    font-weight: 500;
+                    text-align: center;
+                    border-bottom: 3px solid #ffffff47;
+                    width: max-content;
+                  "
+                >
+                  فـروشـگـاه ایـنتـرنـتـی بـرنـدیـت
+                </h1>
+              </div>
+
+              <div class="header-text">
+                <p
+                  style="
+                    font-size: 10px;
+                    opacity: 0.8;
+                    color: #fff;
+                    text-align: justify;
+                    line-height: 22px;
+                  "
+                >
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                  تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                  کاربردی می باشد.
+                </p>
+              </div>
+              <!-- search  -->
+
+              <div
+                class="d-flex align-items-center justify-content-between"
+                style="
+                  margin-top: 2rem;
+                  width: 100%;
+                  border: 1px solid #ffffff57;
+                  padding: 5px;
+                "
+              >
+                <div class="d-flex">
+                  <div class="px-2">
+                    <img
+                      class="w-100"
+                      src="./image/header/Vector (2).png"
+                      alt=""
+                    />
+                  </div>
+                  <input
+                    style="background: none; border: none; font-size: 12px"
+                    type="search"
+                    placeholder="جستجو برای محصولات"
+                  />
+                </div>
+                <div class="d-flex">
+                  <button
+                    style="
+                      border: 0;
+                      background-color: #fabb98;
+                      color: rgb(0, 0, 0);
+                      padding: 5px 10px;
+                      font-size: 12px;
+                    "
+                  >
+                    جستجو
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- left part -->
+          <div class="col-lg-6 d-lg-block d-none mt-5">
+            <img width="100%" src="./image/header/pngegg (3) 1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- category -->
+    <section>
+      <div class="container">
+        <div class="row flex-wrap justify-content-between my-5">
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <a href="">
+                <img src="./image/category/men.png" alt="" />
+                <p class="mt-3 text-black text-center">پوشاک مردانه</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <a href="">
+                <img src="./image/category/woman.png" alt="" />
+                <p class="mt-3 text-black text-center">پوشاک مردانه</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <a href="">
+                <img src="./image/category/baby.png" alt="" />
+                <p class="mt-3 text-black text-center">پوشاک مردانه</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <a href="">
+                <img src="./image/category/shoes.png" alt="" />
+                <p class="mt-3 text-black text-center">پوشاک مردانه</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <a href="">
+                <img src="./image/category/makeup.png" alt="" />
+                <p class="mt-3 text-black text-center">پوشاک مردانه</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <a href="">
+                <img src="./image/category/accessory.png" alt="" />
+                <p class="mt-3 text-black text-center">پوشاک مردانه</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- swiper newest -->
+    <section>
+      <div style="background-color: #fcdac8">
+        <div class="container d-flex align-items-center py-4">
+          <div
+            class="vertical-title"
+            style="background-color: #ffffff; color: #b28165"
+          >
+            <p class="mb-0">جــدیــدتــریــن هــا</p>
+          </div>
+          <div class="swiper mySwiper">
+            <div class="d-flex flex-row justify-content-between swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="productbox">
+                    <img
+                      style="width: 100%; height: 170px"
+                      src="./image/newest/1.png"
+                      alt=""
+                    />
+                    <div style="font-size: 14px" class="text-end mt-3 fw-bold">
+                      <p>پیراهن زنانه دکمه دار</p>
+                    </div>
+                    <div
+                      class="d-flex align-items-center mb-4"
+                      style="font-size: 12px"
+                    >
+                      <i class="bi bi-tag-fill maincolor mx-1"></i>
+                      <p class="ms-2 mb-0 fw-bold">520،000 تومان</p>
+                      <p
+                        class="text-decoration-line-through mb-0 text-black-50"
+                      >
+                        750،000
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="productbox">
+                    <img
+                      style="width: 100%; height: 170px"
+                      src="./image/newest/2.png"
+                      alt=""
+                    />
+                    <div style="font-size: 14px" class="text-end mt-3 fw-bold">
+                      <p>پیراهن زنانه دکمه دار</p>
+                    </div>
+                    <div
+                      class="d-flex align-items-center mb-4"
+                      style="font-size: 12px"
+                    >
+                      <i class="bi bi-tag-fill maincolor mx-1"></i>
+                      <p class="ms-2 mb-0 fw-bold">520،000 تومان</p>
+                      <p
+                        class="text-decoration-line-through mb-0 text-black-50"
+                      >
+                        750،000
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="productbox">
+                    <img
+                      style="width: 100%; height: 170px"
+                      src="./image/newest/3.png"
+                      alt=""
+                    />
+                    <div style="font-size: 14px" class="text-end mt-3 fw-bold">
+                      <p>پیراهن زنانه دکمه دار</p>
+                    </div>
+                    <div
+                      class="d-flex align-items-center mb-4"
+                      style="font-size: 12px"
+                    >
+                      <i class="bi bi-tag-fill maincolor mx-1"></i>
+                      <p class="ms-2 mb-0 fw-bold">520،000 تومان</p>
+                      <p
+                        class="text-decoration-line-through mb-0 text-black-50"
+                      >
+                        750،000
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="productbox">
+                    <img
+                      style="width: 100%; height: 170px"
+                      src="./image/newest/4.png"
+                      alt=""
+                    />
+                    <div style="font-size: 14px" class="text-end mt-3 fw-bold">
+                      <p>پیراهن زنانه دکمه دار</p>
+                    </div>
+                    <div
+                      class="d-flex align-items-center mb-4"
+                      style="font-size: 12px"
+                    >
+                      <i class="bi bi-tag-fill maincolor mx-1"></i>
+                      <p class="ms-2 mb-0 fw-bold">520،000 تومان</p>
+                      <p
+                        class="text-decoration-line-through mb-0 text-black-50"
+                      >
+                        750،000
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="productbox">
+                    <img
+                      style="width: 100%; height: 170px"
+                      src="./image/newest/1.png"
+                      alt=""
+                    />
+                    <div style="font-size: 14px" class="text-end mt-3 fw-bold">
+                      <p>پیراهن زنانه دکمه دار</p>
+                    </div>
+                    <div
+                      class="d-flex align-items-center mb-4"
+                      style="font-size: 12px"
+                    >
+                      <i class="bi bi-tag-fill maincolor mx-1"></i>
+                      <p class="ms-2 mb-0 fw-bold">520،000 تومان</p>
+                      <p
+                        class="text-decoration-line-through mb-0 text-black-50"
+                      >
+                        750،000
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="productbox">
+                    <img
+                      style="width: 100%; height: 170px"
+                      src="./image/newest/2.png"
+                      alt=""
+                    />
+                    <div style="font-size: 14px" class="text-end mt-3 fw-bold">
+                      <p>پیراهن زنانه دکمه دار</p>
+                    </div>
+                    <div
+                      class="d-flex align-items-center mb-4"
+                      style="font-size: 12px"
+                    >
+                      <i class="bi bi-tag-fill maincolor mx-1"></i>
+                      <p class="ms-2 mb-0 fw-bold">520،000 تومان</p>
+                      <p
+                        class="text-decoration-line-through mb-0 text-black-50"
+                      >
+                        750،000
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- swiper discount -->
+    <section>
+      <div style="background-color: #ffffff">
+        <div class="container d-flex align-items-center py-5">
+          <div
+            class="vertical-title"
+            style="background-color: #b28165; color: #ffffff"
+          >
+            <p class="mb-0">بــیــشــتریــن تــخـــفــیــف</p>
+          </div>
+          <div class="swiper mySwiper">
+            <div class="d-flex flex-row justify-content-between swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="productbox" style="background-color: #fcdac8">
+                    <img
+                      style="width: 100%; height: 170px"
+                      src="./image/discount/1.png"
+                      alt=""
+                    />
+                    <div style="font-size: 14px" class="text-end mt-3 fw-bold">
+                      <p>پیراهن زنانه دکمه دار</p>
+                    </div>
+                    <div
+                      class="d-flex align-items-center mb-4"
+                      style="font-size: 12px"
+                    >
+                      <i class="bi bi-tag-fill maincolor mx-1"></i>
+                      <p class="ms-2 mb-0 fw-bold">520،000 تومان</p>
+                      <p
+                        class="text-decoration-line-through mb-0 text-black-50"
+                      >
+                        750،000
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="productbox" style="background-color: #fcdac8">
+                    <img
+                      style="width: 100%; height: 170px"
+                      src="./image/discount/2.png"
+                      alt=""
+                    />
+                    <div style="font-size: 14px" class="text-end mt-3 fw-bold">
+                      <p>پیراهن زنانه دکمه دار</p>
+                    </div>
+                    <div
+                      class="d-flex align-items-center mb-4"
+                      style="font-size: 12px"
+                    >
+                      <i class="bi bi-tag-fill maincolor mx-1"></i>
+                      <p class="ms-2 mb-0 fw-bold">520،000 تومان</p>
+                      <p
+                        class="text-decoration-line-through mb-0 text-black-50"
+                      >
+                        750،000
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="productbox" style="background-color: #fcdac8">
+                    <img
+                      style="width: 100%; height: 170px"
+                      src="./image/discount/3.png"
+                      alt=""
+                    />
+                    <div style="font-size: 14px" class="text-end mt-3 fw-bold">
+                      <p>پیراهن زنانه دکمه دار</p>
+                    </div>
+                    <div
+                      class="d-flex align-items-center mb-4"
+                      style="font-size: 12px"
+                    >
+                      <i class="bi bi-tag-fill maincolor mx-1"></i>
+                      <p class="ms-2 mb-0 fw-bold">520،000 تومان</p>
+                      <p
+                        class="text-decoration-line-through mb-0 text-black-50"
+                      >
+                        750،000
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="productbox" style="background-color: #fcdac8">
+                    <img
+                      style="width: 100%; height: 170px"
+                      src="./image/discount/4.png"
+                      alt=""
+                    />
+                    <div style="font-size: 14px" class="text-end mt-3 fw-bold">
+                      <p>پیراهن زنانه دکمه دار</p>
+                    </div>
+                    <div
+                      class="d-flex align-items-center mb-4"
+                      style="font-size: 12px"
+                    >
+                      <i class="bi bi-tag-fill maincolor mx-1"></i>
+                      <p class="ms-2 mb-0 fw-bold">520،000 تومان</p>
+                      <p
+                        class="text-decoration-line-through mb-0 text-black-50"
+                      >
+                        750،000
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="productbox" style="background-color: #fcdac8">
+                    <img
+                      style="width: 100%; height: 170px"
+                      src="./image/discount/1.png"
+                      alt=""
+                    />
+                    <div style="font-size: 14px" class="text-end mt-3 fw-bold">
+                      <p>پیراهن زنانه دکمه دار</p>
+                    </div>
+                    <div
+                      class="d-flex align-items-center mb-4"
+                      style="font-size: 12px"
+                    >
+                      <i class="bi bi-tag-fill maincolor mx-1"></i>
+                      <p class="ms-2 mb-0 fw-bold">520،000 تومان</p>
+                      <p
+                        class="text-decoration-line-through mb-0 text-black-50"
+                      >
+                        750،000
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="productbox" style="background-color: #fcdac8">
+                    <img
+                      style="width: 100%; height: 170px"
+                      src="./image/discount/2.png"
+                      alt=""
+                    />
+                    <div style="font-size: 14px" class="text-end mt-3 fw-bold">
+                      <p>پیراهن زنانه دکمه دار</p>
+                    </div>
+                    <div
+                      class="d-flex align-items-center mb-4"
+                      style="font-size: 12px"
+                    >
+                      <i class="bi bi-tag-fill maincolor mx-1"></i>
+                      <p class="ms-2 mb-0 fw-bold">520،000 تومان</p>
+                      <p
+                        class="text-decoration-line-through mb-0 text-black-50"
+                      >
+                        750،000
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- swiper popular -->
+    <section>
+      <div style="background-color: #fcdac8">
+        <div class="container d-flex align-items-center py-4">
+          <div
+            class="vertical-title"
+            style="background-color: #ffffff; color: #b28165"
+          >
+            <p class="mb-0">مــحــبــوب تــریــن هــا</p>
+          </div>
+          <div class="swiper mySwiper">
+            <div class="d-flex flex-row justify-content-between swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="productbox">
+                    <img
+                      style="width: 100%; height: 170px"
+                      src="./image/popular/1.png"
+                      alt=""
+                    />
+                    <div style="font-size: 14px" class="text-end mt-3 fw-bold">
+                      <p>پیراهن زنانه دکمه دار</p>
+                    </div>
+                    <div
+                      class="d-flex align-items-center mb-4"
+                      style="font-size: 12px"
+                    >
+                      <i class="bi bi-tag-fill maincolor mx-1"></i>
+                      <p class="ms-2 mb-0 fw-bold">520،000 تومان</p>
+                      <p
+                        class="text-decoration-line-through mb-0 text-black-50"
+                      >
+                        750،000
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="productbox">
+                    <img
+                      style="width: 100%; height: 170px"
+                      src="./image/popular/2.png"
+                      alt=""
+                    />
+                    <div style="font-size: 14px" class="text-end mt-3 fw-bold">
+                      <p>پیراهن زنانه دکمه دار</p>
+                    </div>
+                    <div
+                      class="d-flex align-items-center mb-4"
+                      style="font-size: 12px"
+                    >
+                      <i class="bi bi-tag-fill maincolor mx-1"></i>
+                      <p class="ms-2 mb-0 fw-bold">520،000 تومان</p>
+                      <p
+                        class="text-decoration-line-through mb-0 text-black-50"
+                      >
+                        750،000
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="productbox">
+                    <img
+                      style="width: 100%; height: 170px"
+                      src="./image/popular/3.png"
+                      alt=""
+                    />
+                    <div style="font-size: 14px" class="text-end mt-3 fw-bold">
+                      <p>پیراهن زنانه دکمه دار</p>
+                    </div>
+                    <div
+                      class="d-flex align-items-center mb-4"
+                      style="font-size: 12px"
+                    >
+                      <i class="bi bi-tag-fill maincolor mx-1"></i>
+                      <p class="ms-2 mb-0 fw-bold">520،000 تومان</p>
+                      <p
+                        class="text-decoration-line-through mb-0 text-black-50"
+                      >
+                        750،000
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="productbox">
+                    <img
+                      style="width: 100%; height: 170px"
+                      src="./image/popular/4.png"
+                      alt=""
+                    />
+                    <div style="font-size: 14px" class="text-end mt-3 fw-bold">
+                      <p>پیراهن زنانه دکمه دار</p>
+                    </div>
+                    <div
+                      class="d-flex align-items-center mb-4"
+                      style="font-size: 12px"
+                    >
+                      <i class="bi bi-tag-fill maincolor mx-1"></i>
+                      <p class="ms-2 mb-0 fw-bold">520،000 تومان</p>
+                      <p
+                        class="text-decoration-line-through mb-0 text-black-50"
+                      >
+                        750،000
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="productbox">
+                    <img
+                      style="width: 100%; height: 170px"
+                      src="./image/popular/1.png"
+                      alt=""
+                    />
+                    <div style="font-size: 14px" class="text-end mt-3 fw-bold">
+                      <p>پیراهن زنانه دکمه دار</p>
+                    </div>
+                    <div
+                      class="d-flex align-items-center mb-4"
+                      style="font-size: 12px"
+                    >
+                      <i class="bi bi-tag-fill maincolor mx-1"></i>
+                      <p class="ms-2 mb-0 fw-bold">520،000 تومان</p>
+                      <p
+                        class="text-decoration-line-through mb-0 text-black-50"
+                      >
+                        750،000
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="productbox">
+                    <img
+                      style="width: 100%; height: 170px"
+                      src="./image/popular/2.png"
+                      alt=""
+                    />
+                    <div style="font-size: 14px" class="text-end mt-3 fw-bold">
+                      <p>پیراهن زنانه دکمه دار</p>
+                    </div>
+                    <div
+                      class="d-flex align-items-center mb-4"
+                      style="font-size: 12px"
+                    >
+                      <i class="bi bi-tag-fill maincolor mx-1"></i>
+                      <p class="ms-2 mb-0 fw-bold">520،000 تومان</p>
+                      <p
+                        class="text-decoration-line-through mb-0 text-black-50"
+                      >
+                        750،000
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- swiper article -->
+    <section class="container" style="margin-bottom: 5rem">
+      <div class="swiper myswiper2">
+        <!-- title  -->
+        <div style="margin: 50px 0" class="d-flex align-items-center">
+          <div class="m-0 p-0 ps-4" style="color: #b28165; font-size: 20px">
+            <p class="mb-0">مــقـالـات</p>
+          </div>
+          <div
+            style="
+              border: 1px solid #b28165;
+              opacity: 0.1;
+              height: 1px;
+              width: 100%;
+            "
+          ></div>
+        </div>
+
+        <div
+          class="d-flex flex-row justify-content-between swiper-wrapper pb-4"
+        >
+          <div class="swiper-slide" style="max-width: 290px">
+            <div class="articlebox">
+              <img class="w-100" src="./image/article/1.png" alt="" />
+
+              <div>
+                <h2
+                  class="my-3"
+                  style="font-size: 14px; font-weight: bold; text-align: start"
+                >
+                  قیمت پارچه ساتن افزایش یافت
+                </h2>
+              </div>
+              <div
+                style="font-size: 10px; font-weight: 500; text-align: justify"
+              >
+                <p>
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و
+                  با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+                  تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود تنوع با هدف
+                  بهبود.
+                </p>
+              </div>
+
+              <a href="">
+                <div class="py-2 addbtn">
+                  <p class="mb-0 text-center text-white">مشاهده بیشتر</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide" style="max-width: 290px">
+            <div class="articlebox">
+              <img class="w-100" src="./image/article/1.png" alt="" />
+
+              <div>
+                <h2
+                  class="my-3"
+                  style="font-size: 14px; font-weight: bold; text-align: start"
+                >
+                  قیمت پارچه ساتن افزایش یافت
+                </h2>
+              </div>
+              <div
+                style="font-size: 10px; font-weight: 500; text-align: justify"
+              >
+                <p>
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و
+                  با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+                  تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود تنوع با هدف
+                  بهبود.
+                </p>
+              </div>
+
+              <a href="">
+                <div class="py-2 addbtn">
+                  <p class="mb-0 text-center text-white">مشاهده بیشتر</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide" style="max-width: 290px">
+            <div class="articlebox">
+              <img class="w-100" src="./image/article/1.png" alt="" />
+
+              <div>
+                <h2
+                  class="my-3"
+                  style="font-size: 14px; font-weight: bold; text-align: start"
+                >
+                  قیمت پارچه ساتن افزایش یافت
+                </h2>
+              </div>
+              <div
+                style="font-size: 10px; font-weight: 500; text-align: justify"
+              >
+                <p>
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و
+                  با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+                  تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود تنوع با هدف
+                  بهبود.
+                </p>
+              </div>
+
+              <a href="">
+                <div class="py-2 addbtn">
+                  <p class="mb-0 text-center text-white">مشاهده بیشتر</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide" style="max-width: 290px">
+            <div class="articlebox">
+              <img class="w-100" src="./image/article/1.png" alt="" />
+
+              <div>
+                <h2
+                  class="my-3"
+                  style="font-size: 14px; font-weight: bold; text-align: start"
+                >
+                  قیمت پارچه ساتن افزایش یافت
+                </h2>
+              </div>
+              <div
+                style="font-size: 10px; font-weight: 500; text-align: justify"
+              >
+                <p>
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و
+                  با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+                  تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود تنوع با هدف
+                  بهبود.
+                </p>
+              </div>
+
+              <a href="">
+                <div class="py-2 addbtn">
+                  <p class="mb-0 text-center text-white">مشاهده بیشتر</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide" style="max-width: 290px">
+            <div class="articlebox">
+              <img class="w-100" src="./image/article/1.png" alt="" />
+
+              <div>
+                <h2
+                  class="my-3"
+                  style="font-size: 14px; font-weight: bold; text-align: start"
+                >
+                  قیمت پارچه ساتن افزایش یافت
+                </h2>
+              </div>
+              <div
+                style="font-size: 10px; font-weight: 500; text-align: justify"
+              >
+                <p>
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و
+                  با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+                  تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود تنوع با هدف
+                  بهبود.
+                </p>
+              </div>
+
+              <a href="">
+                <div class="py-2 addbtn">
+                  <p class="mb-0 text-center text-white">مشاهده بیشتر</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer  -->
+
+    <footer style="background-color: #1e1e1e; padding: 4rem 0">
+      <div class="container">
+      <div class="row  flex-wrap text-white align-items-center">
+        <div class="col-xl-4 col-md-6 col-sm-12 mb-3">
+          <div class="d-flex justify-content-center mb-4">
+            <img src="./image/header/Frame.png" alt="" />
+          </div>
+          <div class="footerline" style="line-height: 190%">
+            <p style="font-size: 12px; text-align: justify; font-weight: 400;margin-bottom: 0;">
+              اولین پایگاه جامع اینترنتی محصولات داروخانه در شهر کرمان که از
+              شهریور ماه ۱۳۹۶ به صاحب امتیاز آقای دکتر فرزاد دوستی شعار و تحت
+              نظارت آقای دکتر فرزاد دوستی شعار دارو ساز و آشنایی هر چه بهتر مصرف
+              کنندگان از محصولات داروخانه راه اندازی گردیده است.
+            </p>
+            <div>
+              <img src="./images/37.png" alt="" />
+              <img src="./images/1400092408414233224276264 1.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-md-6 col-sm-12 mb-3">
+          <h4 class="footer-title">لینک های مفید</h4>
+
+
+          <div class="footerline">
+            <div>
+              <i class="bi bi-square-fill dot"></i>
+              <a class="text-white footer-links" href=""> درباره ما </a>
+            </div>
+
+            <div>
+              <i class="bi bi-square-fill dot"></i>
+              <a class="text-white footer-links" href=""> تماس با ما </a>
+            </div>
+
+            <div>
+              <i class="bi bi-square-fill dot"></i>
+              <a class="text-white footer-links" href=""> قوانین و مقررات </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-md-6 col-sm-12 mb-3">
+          <h4 class="footer-title">دسترسی سریع</h4>
+
+          <div class="footerline">
+            <div>
+              <i class="bi bi-square-fill dot"></i>
+              <a class="text-white footer-links" href=""> مقالات  </a>
+            </div>
+
+            <div>
+              <i class="bi bi-square-fill dot"></i>
+              <a class="text-white footer-links" href="">  محصولات  </a>
+            </div>
+
+            <div>
+              <i class="bi bi-square-fill dot"></i>
+              <a class="text-white footer-links" href="">  پشتیبانی  </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-md-6 col-sm-12 mb-3">
+          <h4 class="footer-title">با ثبت ایمیل خود از اخبار و تخیفیف‌های ما با خبر باشید</h4>
+
+          <div class="">
+             <!-- search  -->
+
+             <div
+             class="d-flex align-items-center justify-content-between"
+             style="
+               margin-top: 2rem;
+               width: 100%;
+               border-bottom: 1px solid #ffffff;
+               padding: 5px;
+             "
+           >
+             <div class="d-flex">
+               <input
+                 style="background: none; border: none; font-size: 12px"
+                 type="search"
+                 placeholder="ایمیل"
+               />
+             </div>
+             
+           </div>
+           <div class="d-flex justify-content-end mt-4">
+            <button
+              style="
+                border: 0;
+                background-color: #fabb98;
+                color: rgb(255, 255, 255);
+                padding: 5px 30px;
+                font-size: 12px;
+              "
+            >
+              ارسال
+            </button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </footer>
+    <script src="./script/bootstrap.bundle.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="./script/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".myswiper", {
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          // when window width is >= 480px
+          375: {
+            slidesPerView: 1.5,
+            spaceBetween: 30,
+          },
+          // when window width is >= 640px
+          425: {
+            slidesPerView: 1.5,
+            spaceBetween: 20,
+          },
+          640: {
+            slidesPerView: 2.5,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3.25,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+          1440: {
+            slidesPerView: 4.5,
+            spaceBetween: 20,
+          },
+        },
+      });
+      var swiper = new Swiper(".myswiper2", {
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          // when window width is >= 480px
+          375: {
+            slidesPerView: 1.5,
+            spaceBetween: 30,
+          },
+          // when window width is >= 640px
+          425: {
+            slidesPerView: 1.5,
+            spaceBetween: 20,
+          },
+          640: {
+            slidesPerView: 2.5,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 60,
+          },
+          1440: {
+            slidesPerView: 3.5,
+            spaceBetween: 70,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
